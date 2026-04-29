@@ -3,6 +3,8 @@
 
 A comprehensive dataset and analysis of the Delhi Metro Rail Network, covering **285 stations** across **13 lines** with geospatial, temporal, and infrastructure attributes.
 
+<img width="1910" height="1340" alt="delhi_metro_dashboard" src="https://github.com/user-attachments/assets/82fe3610-0264-4229-8a1b-0d940a7e75d8" />
+
 ---
 
 ## Dataset
