@@ -73,8 +73,7 @@ folium
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/delhi-metro-analysis.git
-cd delhi-metro-analysis
+https://github.com/Akksshhatt/Metro_analysis.git
 ```
 
 **2. Create a virtual environment (recommended)**
