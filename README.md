@@ -77,24 +77,12 @@ folium
 ```bash
 https://github.com/Akksshhatt/Metro_analysis.git
 ```
-
-**2. Create a virtual environment (recommended)**
-```bash
-# Mac/Linux
-python -m venv venv
-source venv/bin/activate
-
-# Windows
-python -m venv venv
-venv\Scripts\activate
-```
-
-**3. Install dependencies**
+**2. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Make sure the dataset is in the project root**
+**3. Make sure the dataset is in the project root**
 ```
 delhi-metro-analysis/
 │
@@ -103,28 +91,6 @@ delhi-metro-analysis/
 ├── README.md              ← documentation
 └── analysis.py            ← your analysis scripts
 ```
-
-**5. Run the analysis**
-```bash
-python analysis.py
-
----
-
-## Quick Start
-
-```python
-import pandas as pd
-
-df = pd.read_csv('Delhi_metro.csv')
-df['Year'] = pd.to_datetime(df['Opened(Year)'], dayfirst=True).dt.year
-
-# Total length per line
-print(df.groupby('Metro Line')['Dist. From First Station(km)'].max().sort_values(ascending=False))
-
-# Stations opened per year
-print(df.groupby('Year').size())
-```
-
 ---
 
 
